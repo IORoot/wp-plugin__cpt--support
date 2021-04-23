@@ -77,17 +77,17 @@ class tailwind {
 
     public function ul()
     {
-        return 'text-xl list-outside list-disc bg-night text-white mb-12 px-12 pt-12 pb-8 w-full';
+        return 'text-xl list-outside list-disc bg-ghost text-smoke mb-12 px-12 pt-12 pb-8 w-full';
     }
 
     public function ol()
     {
-        return 'text-xl list-outside list-decimal bg-night text-white mb-12 px-12 pt-12 pb-8 w-full';
+        return 'text-xl list-outside list-decimal bg-ghost text-smoke mb-12 px-12 pt-12 pb-8 w-full';
     }
 
     public function li()
     {
-        return 'pb-4 leading-relaxed';
+        return 'pb-1 leading-relaxed';
     }
 
     public function blockquote()
