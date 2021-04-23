@@ -1,0 +1,1 @@
+<h1 class="text-3xl lg:text-8xl mt-6 mb-12 text-night w-3/5 capitalize"><?php the_title(); ?></h1>
