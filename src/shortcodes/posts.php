@@ -100,6 +100,7 @@ class posts
         foreach ($this->posts as $key => $post)
         {
             $this->results[$key]['post']  = (array) $post;
+            $this->results[$key]['post']['permalink']  = get_permalink($post->ID);
             $this->results[$key]['meta']  = get_post_meta($post->ID);
             $this->results[$key]['image']['image'] = get_the_post_thumbnail_url($post);
             $this->results[$key]['image']['path'] = dirname($this->results[$key]['image']['image']);

@@ -14,7 +14,7 @@
 
         <?php 
             $code = "[support_posts cat=\"classes\" posts_per_page=\"50\" order=\"ASC\"]
-                <a href=\"{{guid}}\" class=\"hover:underline hover:text-sky py-1\">
+                <a href=\"{{permalink}}\" class=\"hover:underline hover:text-sky py-1\">
                     <div class=\"flex\">
                         <div class=\"inline-block pt-1 mr-1 w-4\">{{icon}}</div>
                         <div>{{post_title}}</div>
@@ -31,7 +31,7 @@
     <div class="flex flex-col mb-4 ml-4">
         <?php 
             $code = "[support_posts cat=\"company\" posts_per_page=\"50\" order=\"ASC\"]
-                <a href=\"{{guid}}\" class=\"hover:underline hover:text-sky py-1\">
+                <a href=\"{{permalink}}\" class=\"hover:underline hover:text-sky py-1\">
                     <div class=\"flex\">
                         <div class=\"inline-block pt-1 mr-1 w-4\">{{icon}}</div>
                         <div>{{post_title}}</div>
@@ -48,7 +48,7 @@
     <div class="flex flex-col mb-4 ml-4">
         <?php 
             $code = "[support_posts cat=\"website\" posts_per_page=\"50\" order=\"ASC\"]
-                <a href=\"{{guid}}\" class=\"hover:underline hover:text-sky py-1\">
+                <a href=\"{{permalink}}\" class=\"hover:underline hover:text-sky py-1\">
                     <div class=\"flex\">
                         <div class=\"inline-block pt-1 mr-1 w-4\">{{icon}}</div>
                         <div>{{post_title}}</div>
