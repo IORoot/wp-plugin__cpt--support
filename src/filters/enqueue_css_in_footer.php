@@ -10,7 +10,7 @@ class enqueue_css_in_footer
 	public function __construct($page_type)
 	{
         $this->page_type = $page_type;
-        $this->path      = 'ANDYP_CPT_'.strtoupper($this->post_type).'_PATH';
+        $this->path      = 'ANDYP_CPT_'.strtoupper($this->page_type).'_PATH';
 
         add_action( 'get_footer', [$this,'register_css'] );
 	}
